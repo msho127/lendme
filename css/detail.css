@@ -1,0 +1,186 @@
+body{
+  background: #eee;
+}
+
+main{
+  background: #fff;
+}
+
+.backBtnWrap {
+  width: 100%;
+  height: 60px;
+}
+.backBtnWrap .backBtn {
+  position: fixed;
+  left: 15px;
+  width: 10px;
+  height: 24px;
+  background-image: url(../img/backBtn.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 20px 0;
+}
+
+.productDetail {
+  background-color: #D9D9D9;
+  padding: 12px 24px;
+}
+.productDetail p {
+  color: #000000;
+  opacity: 0.4;
+}
+
+.productDetail2 {
+  width: 390px;
+  background-color: #D9D9D9;
+  padding: 12px 0;
+}
+.productDetail2 .commentWrap {
+  margin: auto;
+  width: 140px;
+  display: flex;
+}
+.productDetail2 .commentWrap .commentImg {
+  width: 32px;
+  height: 32px;
+  background-image: url(../img/comment2.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.productDetail2 .commentWrap p {
+  width: 100px;
+  height: 32px;
+  padding: auto;
+  color: #000000;
+}
+
+.wrap {
+  width: 100%;
+  display: flex;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.2);
+}
+.wrap .gray {
+  width: 40%;
+  background-color: rgba(217, 217, 217, 0.2);
+  padding: 20px 24px;
+}
+.wrap .gray p {
+  color: #000000;
+  font-size: 0.8rem;
+}
+.wrap .white {
+  width: 60%;
+  background-color: #fff;
+}
+.wrap .white p {
+  color: #000000;
+  font-size: 0.8rem;
+  margin: 20px 24px;
+}
+.wrap .white .waterColor {
+  margin: 10px 24px;
+  color: #35AAFF;
+}
+
+.seller {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  padding: 20px;
+}
+.seller .icon {
+  width: 40px;
+  height: 40px;
+  border: #000000 0.5px solid;
+  border-radius: 50%;
+  background: url(../img/icon.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.seller .sellerWrap {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+.seller .sellerWrap .nameWrap {
+  margin: 0 0px 0 4px;
+}
+.seller .sellerWrap .nameWrap .name {
+  padding: 4px;
+}
+.seller .sellerWrap .nameWrap .starWrap {
+  width: 140px;
+  display: flex;
+  justify-content: space-around;
+}
+.seller .sellerWrap .nameWrap .starWrap .star1 {
+  width: 22px;
+  height: 22px;
+  background: url(../img/Star1.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.seller .sellerWrap .nameWrap .starWrap .star2 {
+  width: 22px;
+  height: 22px;
+  background: url(../img/Star2.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.seller .sellerWrap .btn {
+  background: url(../img/btn2.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 10px;
+  height: 18px;
+  margin: auto 0;
+}
+
+.rentalWrap {
+  width: 390px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  margin-bottom: 110px;
+}
+.rentalWrap .rental {
+  width: 160px;
+  border: solid 1px #90BD31;
+  border-radius: 6px;
+  text-align: center;
+  padding: 12px 0;
+}
+.rentalWrap .rental a {
+  display: block;
+  text-decoration: none;
+  color: #90BD31;
+  font-size: 0.8rem;
+}
+.rentalWrap .rental2 {
+  width: 160px;
+  border: solid 1px #90BD31;
+  border-radius: 6px;
+  background: #90BD31;
+  text-align: center;
+  padding: 10px 0;
+}
+.rentalWrap .rental2 a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.8rem;
+}
+
+@media screen and (min-width: 391px) {
+  body{
+    width: 390px;
+    height: 844px;
+    margin: auto;
+  }
+}

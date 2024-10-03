@@ -1,0 +1,63 @@
+
+body{
+  background: #eee;
+}
+main{
+  background: #fff;
+}
+
+h2 {
+  padding-top: 30px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.goods {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.goods2 {
+  display: flex;
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+
+.text {
+  padding-left: 20px;
+}
+.text p {
+  font-size: 10px;
+}
+
+.text2 {
+  display: flex;
+  padding-bottom: 10px;
+}
+.text2 p {
+  font-size: 12px;
+}
+.text2 h5 {
+  font-size: 15px;
+  padding-left: 20px;
+}
+
+
+area {
+  width: 340px;
+  height: 1px;
+  border: solid 1px #000;
+  text-align: center;
+  position: absolute;
+  top: 585px;
+  left: 30px;
+  opacity: 20%;
+}
+
+@media screen and (min-width: 391px) {
+  body{
+    width: 390px;
+    height: 844px;
+    margin: auto;
+  }
+}
